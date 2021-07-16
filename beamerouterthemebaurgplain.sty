@@ -71,7 +71,7 @@
 
   \setlength{\topbarheight}{1.3\cm}
   \setlength{\bottombarheight}{1.05\cm}
-  \setlength{\titlebarheight}{3.25\cm}
+  \setlength{\titlebarheight}{2.9\cm}
   \setlength{\logoheight}{1\cm}%
   \setlength{\lefttitlemargin}{0.85\cm}%
   \setlength{\slidelogoy}{0.1\cm}%
@@ -132,7 +132,7 @@
 % There are three variations. Check which one was provided with the optional argument:
         % solid background
         \ifthenelse{\equal{\variant}{1}}{
-          \pgfsetfillopacity{0.7}
+          \pgfsetfillopacity{0.6}
         }{
           \pgfsetfillopacity{1.0}
         }
@@ -179,24 +179,21 @@
         }
         }
 
-
         % Title, subtitle and author
         \pgftext[at=\pgfpoint{\lefttitlemargin}{\bottombarheight+\titlebarheight-0.5\cm},left,top]{%
-
           \begin{minipage}[t][2.8cm][t]{0.95\paperwidth} % Title
             \begin{minipage}[t][1.2\cm][t]{0.95\paperwidth}
-              \color{white}\normalfont\fontsize{20}{21}\selectfont\bfseries\raggedright%
-              \inserttitle
-            \end{minipage}\\% Subtitle
-            \begin{minipage}[t][1.5\cm - \authorbarheight][t]{0.95\paperwidth}
+              \color{white}\normalfont\huge \selectfont\bfseries\raggedright%
+              \inserttitle \\
               \color{white}\normalfont\fontsize{8.5}{8.5}\selectfont\bfseries\raggedright%
               \insertsubtitle
-            \end{minipage}\\% Author
+            \end{minipage}\\
+            % Author
             \begin{minipage}[c][\authorbarheight][c]{0.95\paperwidth}
+              \vspace{0.3cm}
               \color{white}\normalfont\fontsize{7}{7}\selectfont\bfseries\raggedright
               \insertauthor
             \end{minipage}
-
         \end{minipage}
         }
 

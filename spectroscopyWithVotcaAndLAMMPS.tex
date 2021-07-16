@@ -26,147 +26,232 @@
 \usepackage{svg}
 \usepackage{subcaption}
 
-\title{Brute Force Awakens}
-\subtitle{April 9, 2021}
-\author{Ruben Gerritsen}
-\department{CASA Day - Episode V}
-
+\title{Solvatochromic Shifts in the Spectroscopy of Acetone}
+\subtitle{\Large with LAMMPS and VOTCA}
+\author{August 13, 2021}
+\department{LAMMPS Virtual Workshop 2021}
 
 \begin{document}
 
 \begin{titleframe}[variant=1,bgimage=background.png]
 \end{titleframe}
 
-% 1 %
-\begin{frame}[fragile]
-	\frametitle{Overview}
-	\begin{itemize}
-		\item What is it about?
-		\item Multiscale Approach
-		\item Modelling Carrier Dynamics
-		\item Electronic Structure Calculations
-		\item How long does it take?
-		\item dsd
-	\end{itemize}
-\end{frame}
+\begin{chapterframe}
+  \frametitle{Overview}
+  \begin{itemize}
+    \item How to follow along
+    \item The QM/MM Approach
+    \item Doing QM/MM with LAMMPS AND VOTCA
+  \end{itemize}
+\end{chapterframe}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% A PRIMER IN ORGANIC ELECTRONICS
+% SETUP OF THE TUTORIAL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}
-	\frametitle{Organic Materials and the Processes Involved}
-	\begin{columns}[c]
-		\begin{column}{0.6\textwidth}
-			\includegraphics[height=0.7\textheight]{material.png}
-		\end{column}
-		\begin{column}{0.36\textwidth}
-			\textbf{Particles}
-			\begin{itemize}
-				\item Electrons
-				\item Holes
-				\item Excitons
-			\end{itemize}
-			\medskip
-			\textbf{Processes}
-			\begin{itemize}
-				\item Charge transfer
-				\item Recombination of electrons and holes
-				\item Exciton generation
-				\item Exciton dissociation: via Charge Transfer (CT) states
-				\item Exciton decay
-				\item Exciton transfer fds
-			\end{itemize}
-		\end{column}
-	\end{columns}
+
+\begin{frame}[fragile]
+  \frametitle{How to follow along}
+  You can follow along with this tutorial on you own pc, assuming you can run docker. To set it up on a Ubuntu machine, install docker,
+  \begin{minted}{bash}
+sudo apt install docker.io
+  \end{minted}
+  and pull the votca image.
+  \begin{minted}{bash}
+sudo docker pull votca/votca
+  \end{minted}
+Next we start docker and load the environment variables of VOTCA
+  \begin{minted}{bash}
+sudo docker run -it votca/votca /bin/bash
+source VOTCARC.bash
+  \end{minted}
+  To find all the necessary input files \mintinline{bash}{cd} to 
+\begin{minted}{bash}
+cd xtp-tutorials/LAMMPS_workshop
+\end{minted}
+Now you are all set to follow along. 
+
 \end{frame}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THE QMMM APPROACH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{The QM/MM Approach}
+  \centering
+  \includegraphics[height=0.65\textheight]{images/siteenergies}
+\end{frame}
+
+\begin{frame}
+  \frametitle{The QM/MM Approach: A combination of 4 models}
+  \begin{columns}[t]
+    \begin{column}{0.44\textwidth}
+        \begin{itemize}
+          \item Molecular Dynamics:
+          \begin{itemize}
+            \item Used to obtain a snap shot of the topology of the molecular system
+            \item \textbf{Tool:} LAMMPS (or GROMACS)
+            \item \textbf{Representation:} Geometry + Forcefield
+          \end{itemize}
+          \item Quantum Mechanical:
+          \begin{itemize}
+            \item Used to compute the excited states of a molecule and generate input files.
+            \item \textbf{Tool:} VOTCA (excited states) + ORCA (input files) 
+            \item \textbf{Representation:} Optimized geometry
+          \end{itemize}
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.44\textwidth}
+      \begin{itemize}
+        \item Electrostatics:
+        \begin{itemize}
+          \item The electrostatics are computed based on a multipole expansion (in this tutorial just partial charges).
+          \item \textbf{Tool:} VOTCA (and ORCA)
+          \item \textbf{Representation:} Distributed multipoles
+        \end{itemize}
+        \item Polarization:
+        \begin{itemize}
+          \item We use the applequist model with Thole damping, i.e. polarizable dipoles.
+          \item \textbf{Tool:} VOTCA (and ORCA)
+          \item \textbf{Representation:} Distributed polarizabilities
+        \end{itemize}
+      \end{itemize}
+  \end{column}
+\end{columns}
+\vspace{0.5cm}
+To do a QM/MM calculation we need to setup the representations for each model and generate all the necessary input files.
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DYNAMICS
+% QMMM WITH VOTCA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Modelling Carrier Dynamics}
 \begin{chapterframe}
-	\frametitle{Modelling Carrier Dynamics}
-	\begin{itemize}
-		\item From Hopping Rates to a Graph
-		\item The Master Equation (ME)
-		\item Kinetic Monte Carlo (KMC)
-	\end{itemize}
+  \frametitle{Performing QM/MM with VOTCA and LAMMPS}
+  The process of performing a QM/MM calculation consists of three general steps.
+  \begin{enumerate}
+    \item Create representations and input files
+    \item The mapping procedure (combining the representations from the 4 models)
+    \item Running the QM/MM calculation
+  \end{enumerate}
 \end{chapterframe}
 
 \begin{frame}[fragile]
-	\frametitle{Code Example}
-	Here is some text with a bit of code \mintinline{python}{fiets}
-	\begin{minted}{python}
-def initializeVelocity(sd,nrOfAtoms):
-    """ Returns randomized initial velocities for the atoms, with standar
-        deviation = 'sd'. """
-    return(np.random.normal(0.0,sd,(nrOfAtoms,3)))
-	\end{minted}
+  \frametitle{The System and Generating Input Files}
+  \begin{columns}[b]
+    \begin{column}{0.58\textwidth}
+  \textbf{The MD trajectory of Acetone in Water}\\
+  The MD trajectory can be obtained by running a normal LAMMPS simulation of your system. For this tutorial we have already performed the MD simulation for you. The relevant data can be found in the \mintinline{bash}{system.data} and \mintinline{bash}{traj1.dump} files.
+  \vspace{0.3cm}\\
+  \textbf{Optimized geometries}\\
+  Optimized geometries can be obtained from many QM packages including VOTCA. For this tutorial we have already computed them with ORCA. The ORCA results and the input files that generated them can be found in the \mintinline{bash}{DFT_ORCA} folder. 
+  \vspace{0.3cm}\\
+  \textbf{Multipoles and Polarization}\\
+  The multipoles and polarization can also be computed with ORCA and that is what we did for this tutorial.The ORCA output files, however, need to be converted to a VOTCA readable format called mps files. 
+\end{column}
+\begin{column}{0.4\textwidth}
+\includegraphics[width=0.95\textwidth]{system}
+\end{column}
+\end{columns}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Electronic Structure Calculations
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Electronic Structure Calculations}
-\begin{chapterframe}
-	\frametitle{Electronic Structure Calculations}
-	How do we get the parameters and values for the KMC?\\
-	Answer: Quantum Mechanics\\
-	\medskip
-	What we will discuss next
-	\begin{itemize}
-		\item Describing molecules and the Born-Oppenheimer approximation
-		\item Density Functional Theory (DFT)
-		\item \textit{GW} method and the Bethe Salpeter Equation (BSE)
-	\end{itemize}
-\end{chapterframe}
-
-\begin{frame}
-	\frametitle{The Born-Oppenheimer Approximation}
-	\small
-	The full Schr\"odinger equation (which contains everything one would ever want to know)
-	$$  \hat{H}_\text{sys} \Psi= E\Psi  \quad\quad \text{or} \quad\quad \hat{H}_\text{sys} \Psi(\{\mathbf{r}_i, \sigma_i\},\ \{Z_l,\*R_l\}) = E\Psi(\{\mathbf{r}_i, \sigma_i\},\ \{Z_l,\*R_l\})$$
-	\begin{columns}[c]
-		\begin{column}{0.45\textwidth}
-			\footnotesize
-			\begin{equation*} \label{FullHamiltonian}
-				\begin{split}
-					\hat{H}_\text{sys} =& \frac{1}{2}\sum_l \frac{1}{M_l}\*P_l^2 +  \frac{1}{2}\sum_i \*p_i^2 + \frac{1}{2}\sum_{\substack{l,l' \\(l \neq l')}} Z_lZ_{l'} v(\*R_l - \*R_{l'})\\
-					&-\sum_l\sum_i Z_l v(\*r_i-\*R_l) + \frac{1}{2}\sum_{\substack{i,i' \\(i \neq i')}} v(\*r_i - \*r_{i'})
-				\end{split}
-			\end{equation*}
-		\end{column}
-		\begin{column}{0.5\textwidth}
-			\begin{itemize}
-				\item[] For benzene: 12 nuclei and 42 electrons
-				\item[] = 162 spatial dimensions
-				\item[] Leads to a very large system of coupled differential equations!
-			\end{itemize}
-		\end{column}
-	\end{columns}
-	The Born-Oppenheimer approximation leads to the electronic Schr\"odinger equation
-	$$	\hat{H}_{e} \Psi_e(\{\mathbf{r}_i\}; \{Z_l,\*R_l\}) = E \Psi_e(\{\mathbf{r}_i\}; \{Z_l,\*R_l\})$$
-	Still difficult to solve
-	\begin{itemize}
-		\item Still high dimensional: $3N$ spatial dimensions
-		\item $\Psi$ should be normalized: $\int \abs{\Psi(\*r_1,\ldots,\*r_N)}^2 \dd{\*r^N} = 1$
-		\item $\Psi$ should be anti-symmetric: $\Psi(\*r_1,\ldots,\*r_k, \*r_l ,\ldots,\*r_N) = - \Psi(\*r_1,\ldots,\*r_l ,\*r_k ,\ldots,\*r_N)$
-	\end{itemize}
+\begin{frame}[fragile]
+  \frametitle{Generating the Multipole and Polarizability files}
+  For the multipoles and polarization VOTCA uses mps files. There is a special tool in VOTCA that converts ORCA log files with CHELPG charges to an mps file.  
+  \begin{minted}{bash}
+xtp_tools -e log2mps -o OPTIONS/log2mps_water.xml
+  \end{minted}
+  We see here the typical way of calling a VOTCA program
+  \begin{minted}{bash}
+xtp_<executableType> -e <calculationType> -o <optionsFile>.xml
+  \end{minted}
+  The option file
+  \begin{minted}{xml}
+<options>
+    <log2mps>
+        <dftpackage>orca</dftpackage>
+        <input>DFT_ORCA/water/chelpg.log</input>
+        <output>MP_FILES/water_n.mps</output>
+    </log2mps>
+</options>
+  \end{minted}
 \end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{How to find out which options are available?}
+  \begin{enumerate}
+    \item Look at the description of a program with the describe flag \mintinline{bash}{-d}\\
+      \begin{minted}{bash}
+xtp_tools -d log2mps
+    \end{minted}
+    \item Print (\mintinline{bash}{-p}) an example options file with \textbf{all} available options to an output file (\mintinline{bash}{-o})
+    \begin{minted}{bash}
+xtp_tools -p log2mps -o optionsLog2mps.xml
+    \end{minted}
+  \end{enumerate}
+\end{frame}
+
+
+\begin{frame}[fragile]
+  \frametitle{The result of \textit{log2mps}}  
+  The generated MPS file.
+  \begin{minted}{text}
+! GENERATED BY VOTCA::XTP::::LOG2MPS 
+! N=3 Q[e]=+0.0000000
+Units angstrom
+  O +0.0000000 +0.0000000 -0.0043320 Rank 0
+    -0.7585550
+    P +0.8370000
+  H +0.7614610 +0.0000000 +0.5795250 Rank 0
+    +0.3787500
+    P +0.4960000
+  H -0.7614610 +0.0000000 +0.5795250 Rank 0
+    +0.3798050
+    P +0.4960000
+  \end{minted}
+  But the polarizations are still wrong.
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Fitting Polarizabilities}  
+  To obtain the atomic polarizabilities we fit them such that they represent the
+  molecular polarizabillity as close as possible. The molecular polarizabilities
+  are calculated with ORCA for this tutorial. VOTCA has a tool specifically for
+  this fitting procedure.
+  \begin{minted}{bash}
+xtp_tools -e molpol -o OPTIONS/molpol_water.xml
+  \end{minted}
+  The options file
+  \begin{minted}{xml}
+<options>
+  <molpol>
+    <input>MP_FILES/water_n.mps</input>
+    <output>MP_FILES/water_n_pol.mps</output>
+    <mode>qmpackage</mode>
+    <qmpackage>orca</qmpackage>
+    <logfile>DFT_ORCA/water/chelpg.log</logfile>
+  </molpol>
+</options>
+  \end{minted}
+  Check the output file.
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MAPPING 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % QUESTIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Questions}
 \begin{chapterframe}
-	\frametitle{Questions}
-	\vspace{0.5cm}
-	\begin{center}
-		{\fontsize{60}{64} \selectfont \bfseries{?}}
-	\end{center}
+  \frametitle{Results}
+  \vspace{0.5cm}
+  \begin{center}
+    {\fontsize{60}{64} \selectfont \bfseries{?}}
+  \end{center}
 \end{chapterframe}
 
 

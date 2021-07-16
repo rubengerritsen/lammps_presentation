@@ -1,5 +1,6 @@
 \ProvidesPackage{rg-code-beamer}
 \usepackage{kvoptions}
+\usepackage{xpatch}
 \SetupKeyvalOptions{family=KV, prefix=KV@}
 \DeclareStringOption{size}[small,footnotesize,scriptsize, normalsize]
 \ProcessKeyvalOptions*
@@ -33,11 +34,24 @@
 \setsize{\KV@size}
 
 \RequirePackage{mdframed}
+
+
+% there is an error in mdframed which ignores skipbelows, so we patch the command
+\makeatletter
+\xpatchcmd{\endmdframed}
+  {\aftergroup\endmdf@trivlist\color@endgroup}
+  {\endmdf@trivlist\color@endgroup\@doendpe}
+  {}{}
+\makeatother
+
+
 \usemintedstyle{default}
 \surroundwithmdframed[backgroundcolor=codeBlockBG,
 											innerleftmargin=5, innertopmargin=2,
 											innerbottommargin=2, outerlinewidth=0.2, 
-											linecolor=codeBlockBorder] {minted}
+											linecolor=codeBlockBorder, skipbelow=\baselineskip] {minted}
+
+
 % define a simple inline code command
 \RequirePackage[most]{tcolorbox}
 \newtcbox{\codecolor}[1][]{enhanced,
