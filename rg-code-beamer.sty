@@ -1,0 +1,64 @@
+\ProvidesPackage{rg-code-beamer}
+\usepackage{kvoptions}
+\SetupKeyvalOptions{family=KV, prefix=KV@}
+\DeclareStringOption{size}[small,footnotesize,scriptsize, normalsize]
+\ProcessKeyvalOptions*
+
+\message{***************************************************************************}
+\message{\KV@size}
+\message{***************************************************************************}
+
+\usepackage{ifthen}
+
+% Coloring definitions
+\RequirePackage{graphicx}
+\definecolor{codeBlockBG}{gray}{0.98} %the shade of grey that stack
+\definecolor{codeBlockBorder}{gray}{0.7} %the shade of grey that stack
+
+% Code blocks
+\RequirePackage[outputdir=build]{minted}
+
+\newcommand{\setsize}[1] {
+\ifthenelse{\equal{#1}{footnotesize}}
+	{\setminted{fontfamily=courier, fontsize=\footnotesize, breaklines}}
+	{\ifthenelse{\equal{#1}{scriptsize}}
+		{\setminted{fontfamily=courier, fontsize=\scriptsize, breaklines}}
+		{\ifthenelse{\equal{#1}{small}}
+			{\setminted{fontfamily=courier, fontsize=\small, breaklines}}
+			{\setminted{fontfamily=courier, fontsize=\normalsize, breaklines}}
+		}
+	}
+}
+
+\setsize{\KV@size}
+
+\RequirePackage{mdframed}
+\usemintedstyle{default}
+\surroundwithmdframed[backgroundcolor=codeBlockBG,
+											innerleftmargin=5, innertopmargin=2,
+											innerbottommargin=2, outerlinewidth=0.2, 
+											linecolor=codeBlockBorder] {minted}
+% define a simple inline code command
+\RequirePackage[most]{tcolorbox}
+\newtcbox{\codecolor}[1][]{enhanced,
+ box align=base,
+ nobeforeafter,
+ colback=codeBlockBG,
+ colframe=codeBlockBorder,
+ size=small,
+ left=0pt,
+ right=0pt,
+ boxsep=1.5pt,
+ boxrule=0.5pt,
+ height=9pt,
+ valign=bottom,
+ #1}
+
+  \surroundwithmdframed[backgroundcolor=codeBlockBG,
+											innerleftmargin=5, innertopmargin=2,
+											innerbottommargin=2, outerlinewidth=0.2, 
+											linecolor=codeBlockBorder] {mintinline}
+
+% inline code
+\let\mintinlineOLD\mintinline
+\renewcommand{\mintinline}[2]{\codecolor{\mintinlineOLD{#1}{#2}}}
