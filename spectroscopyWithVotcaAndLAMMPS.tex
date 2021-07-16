@@ -26,6 +26,9 @@
 \usepackage{svg}
 \usepackage{subcaption}
 
+% set size of code in minted environments
+\setsize{small}
+
 \title{Solvatochromic Shifts in the Spectroscopy of Acetone}
 \subtitle{\Large with LAMMPS and VOTCA}
 \author{August 13, 2021}
@@ -210,7 +213,7 @@ Units angstrom
     +0.3798050
     P +0.4960000
   \end{minted}
-  But the polarizations are still wrong.
+  But the polarizations are still wrong!
 \end{frame}
 
 \begin{frame}[fragile]
@@ -237,10 +240,88 @@ xtp_tools -e molpol -o OPTIONS/molpol_water.xml
   Check the output file.
 \end{frame}
 
+\begin{frame}[fragile]
+  \frametitle{Repeat for the Acetone molecule}  
+  To generate the mps file for acetone
+  \begin{minted}{bash}
+xtp_tools -e log2mps -o OPTIONS/log2mps_acetone.xml
+xtp_tools -e molpol -o OPTIONS/molpol_acetone.xml
+  \end{minted}
+
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MAPPING 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+  \frametitle{The Mapping Procedure: An Example}  
+  \setsize{footnotesize}
+  \begin{minted}{xml}
+<mdatoms>1:O223:0 1:C222:1 1:C80:2 1:C80:3 1:H85:4 1:H85:5 1:H85:6 1:H85:7 1:H85:8 1:H85:9</mdatoms>
+<qmatoms>0:O      1:C      2:C     3:C     4:H     5:H     6:H     7:H     8:H     9:H</qmatoms>
+<mpoles>0:O       1:C      2:C     3:C     4:H     5:H     6:H     7:H     8:H     9:H</mpoles>
+<localframe>0 1 3</localframe>
+  \end{minted}
+  \setsize{small}
+
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{images/mdAndqm/mapping}
+  \end{center}
+
+  \small This procedure needs to be done for every
+  \begin{itemize}
+    \item geometry (i.e. optimized QM geometry or multipole geometry)
+    \item and for every molecule
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{The Mapping Procedure: The Mapping File}  
+  \setsize{footnotesize}
+
+  \begin{minted}{xml}
+<molecule>
+  <mdname>C3H6O1</mdname>
+  <segments>
+    <segment>
+      <name>ACETONE</name>
+      <qmcoords_n>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_n>
+      <qmcoords_e>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_e>
+      <qmcoords_h>DFT_ORCA/acetone/acetoneOpt.xyz</qmcoords_h>
+      <multipoles_n>MP_FILES/acetone_n_pol.mps</multipoles_n>
+      <map2md>0</map2md>
+      <fragments>
+        <fragment>
+          <name>acetone</name>
+          <mdatoms>1:O223:0 1:C222:1 1:C80:2 1:C80:3 1:H85:4 1:H85:5 1:H85:6 1:H85:7 1:H85:8 1:H85:9</mdatoms>
+          <qmatoms>0:O 1:C 2:C 3:C 4:H 5:H 6:H 7:H 8:H 9:H</qmatoms>
+          <mpoles>0:O 1:C 2:C 3:C 4:H 5:H 6:H 7:H 8:H 9:H</mpoles>
+          <weights>16 12 12 12 1 1 1 1 1 1</weights>
+          <localframe>0 1 3</localframe>
+        </fragment>
+      </fragments>
+    </segment>
+  </segments>
+</molecule>
+  \end{minted}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{The Mapping Procedure: Performing and Checking the Mapping}  
+  \setsize{footnotesize}
+  Once the mapping file is setup, performing the mapping is easy.
+
+  \begin{minted}{bash}
+xtp_map -t system.data -c traj1.dump -s mapping.xml -f state.hdf5
+  \end{minted}
+
+  To check what the mapping did we can print pdb files with the original coordinates and the multipole or qm coordinates to visually check (e.g. in VMD) if the mapping procedure was successful. To run the map checker
+  \begin{minted}{bash}
+xtp_run -e mapchecker -o mapchecker.xml -f state.hdf5
+  \end{minted}
+  In the option file you can specify exactly which states and configurations you would like to check.
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
