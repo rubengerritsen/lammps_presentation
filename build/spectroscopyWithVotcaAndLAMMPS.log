@@ -1,0 +1,1887 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.24)  16 JUL 2021 16:41
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/ruben/Presentations/20210813_lammps_workshop/spectroscopyWithVotcaAndLAMMPS.tex
+(/home/ruben/Presentations/20210813_lammps_workshop/spectroscopyWithVotcaAndLAMMPS.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count167
+)
+\beamer@tempbox=\box45
+\beamer@tempcount=\count168
+\c@beamerpauses=\count169
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count170
+\beamer@minimum=\count171
+\beamer@decode@box=\box46
+)
+\beamer@commentbox=\box47
+\beamer@modecount=\count172
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\headdp=\dimen134
+\footheight=\dimen135
+\sidebarheight=\dimen136
+\beamer@tempdim=\dimen137
+\beamer@finalheight=\dimen138
+\beamer@animht=\dimen139
+\beamer@animdp=\dimen140
+\beamer@animwd=\dimen141
+\beamer@leftmargin=\dimen142
+\beamer@rightmargin=\dimen143
+\beamer@leftsidebar=\dimen144
+\beamer@rightsidebar=\dimen145
+\beamer@boxsize=\dimen146
+\beamer@vboxoffset=\dimen147
+\beamer@descdefault=\dimen148
+\beamer@descriptionwidth=\dimen149
+\beamer@lastskip=\skip47
+\beamer@areabox=\box48
+\beamer@animcurrent=\box49
+\beamer@animshowbox=\box50
+\beamer@sectionbox=\box51
+\beamer@logobox=\box52
+\beamer@linebox=\box53
+\beamer@sectioncount=\count173
+\beamer@subsubsectionmax=\count174
+\beamer@subsectionmax=\count175
+\beamer@sectionmax=\count176
+\beamer@totalheads=\count177
+\beamer@headcounter=\count178
+\beamer@partstartpage=\count179
+\beamer@sectionstartpage=\count180
+\beamer@subsectionstartpage=\count181
+\beamer@animationtempa=\count182
+\beamer@animationtempb=\count183
+\beamer@xpos=\count184
+\beamer@ypos=\count185
+\beamer@ypos@offset=\count186
+\beamer@showpartnumber=\count187
+\beamer@currentsubsection=\count188
+\beamer@coveringdepth=\count189
+\beamer@sectionadjust=\count190
+\beamer@tocsectionnumber=\count191
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count199
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count268
+\pgfmath@box=\box55
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count269
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count270
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count271
+\pgf@shadingcount=\count272
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count273
+\XC@countmixins=\count274
+) (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+\pdfmajorversion=\count278
+Package hyperref Info: Option `bookmarks' set `true' on input line 4421.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4421.
+Package hyperref Info: Option `implicit' set `false' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count279
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen198
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count281
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count282
+\c@bookmark@seq@number=\count283
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count284
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count285
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count286
+\c@part=\count287
+\c@section=\count288
+\c@subsection=\count289
+\c@subsubsection=\count290
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box60
+\beamer@frametitlebox=\box61
+\beamer@zoombox=\box62
+\beamer@zoomcount=\count291
+\beamer@zoomframecount=\count292
+\beamer@frametextheight=\dimen257
+\c@subsectionslide=\count293
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks27
+\framewidth=\dimen258
+\c@framenumber=\count294
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box63
+\beamer@autobreakcount=\count295
+\beamer@autobreaklastheight=\dimen259
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box64
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box65
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box66
+\bmb@colorbox=\box67
+\bmb@boxshadow=\box68
+\bmb@boxshadowball=\box69
+\bmb@boxshadowballlarge=\box70
+\bmb@temp=\dimen260
+\bmb@dima=\dimen261
+\bmb@dimb=\dimen262
+\bmb@prevheight=\dimen263
+)
+\beamer@blockheadheight=\dimen264
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count296
+\c@table=\count297
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen265
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen266
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count298
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count299
+\leftroot@=\count300
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count301
+\DOTSCASE@=\count302
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen268
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count303
+\c@MaxMatrixCols=\count304
+\dotsspace@=\muskip17
+\c@parentequation=\count305
+\dspbrk@lvl=\count306
+\tag@help=\toks33
+\row@=\count307
+\column@=\count308
+\maxfields@=\count309
+\andhelp@=\toks34
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks35
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks42
+)
+\c@theorem=\count310
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (./beamerthemebaurg.sty (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
+Package: pgfpages 2011/01/05 ver 0.02
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count311
+\calc@Bcount=\count312
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count313
+\calc@Cskip=\skip65
+)
+\pgf@logicalpages=\count314
+\pgf@firstshipout=\count315
+\pgf@lastshipout=\count316
+\pgf@currentshipout=\count317
+\pgf@cpn=\count318
+\pgf@shipoutnextto=\count319
+\pgfphysicalheight=\dimen279
+\pgfphysicalwidth=\dimen280
+\pgfpages@shipoutbox=\box73
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count320
+\mult@box=\box74
+\multicol@leftmargin=\dimen281
+\c@unbalance=\count321
+\c@collectmore=\count322
+\doublecol@number=\count323
+\multicoltolerance=\count324
+\multicolpretolerance=\count325
+\full@width=\dimen282
+\page@free=\dimen283
+\premulticols=\dimen284
+\postmulticols=\dimen285
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box75
+\last@line=\box76
+\maxbalancingoverflow=\dimen286
+\mult@rightbox=\box77
+\mult@grightbox=\box78
+\mult@gfirstbox=\box79
+\mult@firstbox=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\c@minrows=\count326
+\c@columnbadness=\count327
+\c@finalcolumnbadness=\count328
+\last@try=\dimen287
+\multicolovershoot=\dimen288
+\multicolundershoot=\dimen289
+\mult@nat@firstbox=\box118
+\colbreak@box=\box119
+\mc@col@check@num=\count329
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/bigstrut.sty
+Package: bigstrut 2019/05/31 v2.5 Provide larger struts in tabulars
+\bigstrutjot=\dimen290
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen291
+\ar@mcellbox=\box120
+\extrarowheight=\dimen292
+\NC@list=\toks43
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box121
+)
+\everycr=\toks44
+\minrowclearance=\skip70
+)
+\basecompanylogowidth=\skip71
+ (./beamerouterthemebaurgplain.sty (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+\cm=\skip72
+\diagonalwidth=\skip73
+\diagonalx=\skip74
+\slidelogoy=\skip75
+\logoheight=\skip76
+\bgimageheight=\skip77
+\topbarheight=\skip78
+\bottombarheight=\skip79
+\titlebarheight=\skip80
+\lefttitlemargin=\skip81
+\authorbarheight=\skip82
+\headlineskip=\skip83
+\extraheadlineskip=\skip84
+) (./beamercolorthemebaurgplain.sty) (./beamerfontthemebaurgplain.sty (/usr/share/texlive/texmf-dist/tex/latex/noto/noto.sty
+Package: noto 2019/10/22 (Bob Tennent) Supports Noto fonts for all LaTeX engines.
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
+\XKV@depth=\count330
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2014/03/23 v1.0d Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)))
+Package hyperref Info: Option `colorlinks' set `true' on input line 254.
+) (./rg-code-beamer.sty
+Package: rg-code-beamer 
+ (/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count331
+\l__pdf_internal_box=\box122
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+ (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count332
+\g__xparse_grabber_int=\count333
+\l__xparse_m_args_int=\count334
+\l__xparse_v_nesting_int=\count335
+)) ***************************************************************************  *************************************************************************** (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
+ (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count336
+\FV@InFile=\read3
+\FV@TabBox=\box123
+\c@FancyVerbLine=\count337
+\FV@StepNumber=\count338
+\FV@OutFile=\write5
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count339
+\output=\toks47
+\linenoprevgraf=\count340
+\linenumbersep=\dimen293
+\linenumberwidth=\dimen294
+\c@linenumber=\count341
+\c@pagewiselinenumber=\count342
+\c@LN@truepage=\count343
+\c@internallinenumber=\count344
+\c@internallinenumbers=\count345
+\quotelinenumbersep=\dimen295
+\bframerule=\dimen296
+\bframesep=\dimen297
+\bframebox=\box124
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@FV@TrueTabGroupLevel=\count346
+\c@FV@TrueTabCounter=\count347
+\FV@TabBox@Group=\box125
+\FV@TmpLength=\skip85
+\c@FV@HighlightLinesStart=\count348
+\c@FV@HighlightLinesStop=\count349
+\FV@LoopCount=\count350
+\FV@NCharsBox=\box126
+\FV@BreakIndent=\dimen298
+\FV@BreakIndentNChars=\count351
+\FV@BreakSymbolSepLeft=\dimen299
+\FV@BreakSymbolSepLeftNChars=\count352
+\FV@BreakSymbolSepRight=\dimen300
+\FV@BreakSymbolSepRightNChars=\count353
+\FV@BreakSymbolIndentLeft=\dimen301
+\FV@BreakSymbolIndentLeftNChars=\count354
+\FV@BreakSymbolIndentRight=\dimen302
+\FV@BreakSymbolIndentRightNChars=\count355
+\c@FancyVerbLineBreakLast=\count356
+\FV@LineBox=\box127
+\FV@LineIndentBox=\box128
+\FV@LineWidth=\dimen303
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+)
+runsystem(uname -s > "spectroscopyWithVotcaAndLAMMPS.w18")...executed.
+
+ (./spectroscopyWithVotcaAndLAMMPS.w18)
+runsystem(rm -- "spectroscopyWithVotcaAndLAMMPS.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count357
+\decimalpart=\count358
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip86
+\fb@frw=\dimen304
+\fb@frh=\dimen305
+\FrameRule=\dimen306
+\FrameSep=\dimen307
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count359
+\float@exts=\toks48
+\float@box=\box129
+\@float@everytoks=\toks49
+\@floatcapt=\box130
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box131
+\minted@code=\write6
+\c@minted@FancyVerbLineTemp=\count360
+\c@minted@pygmentizecounter=\count361
+\@float@every@listing=\toks50
+\c@listing=\count362
+)
+runsystem(mkdir -p build/_minted-spectroscopyWithVotcaAndLAMMPS)...executed.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2019/11/29 v2.28 Module abspage for zref (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2019/11/29 v2.28 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
+)
+\c@abspage=\count363
+Package zref Info: New property: abspage on input line 66.
+) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip87
+\c@mdf@globalstyle@cnt=\count364
+\mdf@skipabove@length=\skip88
+\mdf@skipbelow@length=\skip89
+\mdf@leftmargin@length=\skip90
+\mdf@rightmargin@length=\skip91
+\mdf@innerleftmargin@length=\skip92
+\mdf@innerrightmargin@length=\skip93
+\mdf@innertopmargin@length=\skip94
+\mdf@innerbottommargin@length=\skip95
+\mdf@splittopskip@length=\skip96
+\mdf@splitbottomskip@length=\skip97
+\mdf@outermargin@length=\skip98
+\mdf@innermargin@length=\skip99
+\mdf@linewidth@length=\skip100
+\mdf@innerlinewidth@length=\skip101
+\mdf@middlelinewidth@length=\skip102
+\mdf@outerlinewidth@length=\skip103
+\mdf@roundcorner@length=\skip104
+\mdf@footenotedistance@length=\skip105
+\mdf@userdefinedwidth@length=\skip106
+\mdf@needspace@length=\skip107
+\mdf@frametitleaboveskip@length=\skip108
+\mdf@frametitlebelowskip@length=\skip109
+\mdf@frametitlerulewidth@length=\skip110
+\mdf@frametitleleftmargin@length=\skip111
+\mdf@frametitlerightmargin@length=\skip112
+\mdf@shadowsize@length=\skip113
+\mdf@extratopheight@length=\skip114
+\mdf@subtitleabovelinewidth@length=\skip115
+\mdf@subtitlebelowlinewidth@length=\skip116
+\mdf@subtitleaboveskip@length=\skip117
+\mdf@subtitlebelowskip@length=\skip118
+\mdf@subtitleinneraboveskip@length=\skip119
+\mdf@subtitleinnerbelowskip@length=\skip120
+\mdf@subsubtitleabovelinewidth@length=\skip121
+\mdf@subsubtitlebelowlinewidth@length=\skip122
+\mdf@subsubtitleaboveskip@length=\skip123
+\mdf@subsubtitlebelowskip@length=\skip124
+\mdf@subsubtitleinneraboveskip@length=\skip125
+\mdf@subsubtitleinnerbelowskip@length=\skip126
+ (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box132
+\mdf@footnotebox=\box133
+\mdf@splitbox@one=\box134
+\mdf@splitbox@two=\box135
+\mdf@splitbox@save=\box136
+\mdfsplitboxwidth=\skip127
+\mdfsplitboxtotalwidth=\skip128
+\mdfsplitboxheight=\skip129
+\mdfsplitboxdepth=\skip130
+\mdfsplitboxtotalheight=\skip131
+\mdfframetitleboxwidth=\skip132
+\mdfframetitleboxtotalwidth=\skip133
+\mdfframetitleboxheight=\skip134
+\mdfframetitleboxdepth=\skip135
+\mdfframetitleboxtotalheight=\skip136
+\mdffootnoteboxwidth=\skip137
+\mdffootnoteboxtotalwidth=\skip138
+\mdffootnoteboxheight=\skip139
+\mdffootnoteboxdepth=\skip140
+\mdffootnoteboxtotalheight=\skip141
+\mdftotallinewidth=\skip142
+\mdfboundingboxwidth=\skip143
+\mdfboundingboxtotalwidth=\skip144
+\mdfboundingboxheight=\skip145
+\mdfboundingboxdepth=\skip146
+\mdfboundingboxtotalheight=\skip147
+\mdf@freevspace@length=\skip148
+\mdf@horizontalwidthofbox@length=\skip149
+\mdf@verticalmarginwhole@length=\skip150
+\mdf@horizontalspaceofbox=\skip151
+\mdfsubtitleheight=\skip152
+\mdfsubsubtitleheight=\skip153
+\c@mdfcountframes=\count365
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- failed******
+
+\mdf@envdepth=\count366
+\c@mdf@env@i=\count367
+\c@mdf@env@ii=\count368
+\c@mdf@zref@counter=\count369
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+ (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box137
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen308
+\pgf@nodesepend=\dimen309
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks51
+\verbatim@line=\toks52
+\verbatim@in@stream=\read5
+) (/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box138
+\tcb@upperbox=\box139
+\tcb@lowerbox=\box140
+\tcb@phantombox=\box141
+\c@tcbbreakpart=\count370
+\c@tcblayer=\count371
+\tcolorbox@number=\count372
+\tcb@temp=\box142
+\tcb@temp=\box143
+\tcb@temp=\box144
+\tcb@temp=\box145
+\tcb@out=\write7
+\tcb@record@out=\write8
+ (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
+\c@tcbrastercolumn=\count373
+\c@tcbrasterrow=\count374
+\c@tcbraster=\count375
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen310
+\pgffor@skip=\dimen311
+\pgffor@stack=\toks53
+\pgffor@toks=\toks54
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count376
+\pgfplotmarksize=\dimen312
+)
+\tikz@lastx=\dimen313
+\tikz@lasty=\dimen314
+\tikz@lastxsaved=\dimen315
+\tikz@lastysaved=\dimen316
+\tikz@lastmovetox=\dimen317
+\tikz@lastmovetoy=\dimen318
+\tikzleveldistance=\dimen319
+\tikzsiblingdistance=\dimen320
+\tikz@figbox=\box146
+\tikz@figbox@bg=\box147
+\tikz@tempbox=\box148
+\tikz@tempbox@bg=\box149
+\tikztreelevel=\count377
+\tikznumberofchildren=\count378
+\tikznumberofcurrentchild=\count379
+\tikz@fig@count=\count380
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count381
+\pgfmatrixcurrentcolumn=\count382
+\pgf@matrix@numberofcolumns=\count383
+)
+\tikz@expandcount=\count384
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\tcb@waterbox=\box150
+ (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
+\tcb@testbox=\box151
+\tcb@totalupperbox=\box152
+\tcb@totallowerbox=\box153
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
+\tcbfitdim=\dimen321
+\tcb@lowerfitdim=\dimen322
+\tcb@upperfitdim=\dimen323
+\tcb@cur@hbadness=\count385
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
+(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count386
+\lst@gtempboxa=\box154
+\lst@token=\toks55
+\lst@length=\count387
+\lst@currlwidth=\dimen324
+\lst@column=\count388
+\lst@pos=\count389
+\lst@lostspace=\dimen325
+\lst@width=\dimen326
+\lst@newlines=\count390
+\lst@lineno=\count391
+\lst@maxwidth=\dimen327
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
+\c@lstnumber=\count392
+\lst@skipnumbers=\count393
+\lst@framebox=\box155
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/09/10 1.8c listings configuration
+))
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
+)
+\c@tcblisting=\count394
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
+))) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count395
+\U@D=\dimen328
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read6
+LaTeX Info: Redefining \textlatin on input line 2319.
+\bbl@dirlevel=\count396
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language31) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language31) on input line 108.
+)) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen329
+\captionmargin@=\dimen330
+\captionwidth=\dimen331
+\caption@tempdima=\dimen332
+\caption@indent=\dimen333
+\caption@parindent=\dimen334
+\caption@hangindent=\dimen335
+Package caption Info: beamer document class detected.
+)
+\c@caption@flags=\count397
+\c@continuedfloat=\count398
+Package caption Info: beamer document class.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: listings package is loaded.
+)
+\c@subfigure=\count399
+\c@subtable=\count400
+) (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen336
+\TX@old@table=\dimen337
+\TX@old@col=\dimen338
+\TX@target=\dimen339
+\TX@delta=\dimen340
+\TX@cols=\count401
+\TX@ftn=\toks56
+) (/usr/share/texlive/texmf-dist/tex/latex/braket/braket.sty)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip154
+\multirow@cntb=\count402
+\multirow@dima=\skip155
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen341
+\pgfdecoratedremainingdistance=\dimen342
+\pgfdecoratedinputsegmentcompleteddistance=\dimen343
+\pgfdecoratedinputsegmentremainingdistance=\dimen344
+\pgf@decorate@distancetomove=\dimen345
+\pgf@decorate@repeatstate=\count403
+\pgfdecorationsegmentamplitude=\dimen346
+\pgfdecorationsegmentlength=\dimen347
+)
+\tikz@lib@dec@box=\box156
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodepartlowerbox=\box157
+\pgfnodeparttwobox=\box158
+\pgfnodepartthreebox=\box159
+\pgfnodepartfourbox=\box160
+\pgfnodeparttwentybox=\box161
+\pgfnodepartnineteenbox=\box162
+\pgfnodeparteighteenbox=\box163
+\pgfnodepartseventeenbox=\box164
+\pgfnodepartsixteenbox=\box165
+\pgfnodepartfifteenbox=\box166
+\pgfnodepartfourteenbox=\box167
+\pgfnodepartthirteenbox=\box168
+\pgfnodeparttwelvebox=\box169
+\pgfnodepartelevenbox=\box170
+\pgfnodeparttenbox=\box171
+\pgfnodepartninebox=\box172
+\pgfnodeparteightbox=\box173
+\pgfnodepartsevenbox=\box174
+\pgfnodepartsixbox=\box175
+\pgfnodepartfivebox=\box176
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) (/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/01/13 v2.02e (include SVG pictures)
+ (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+)
+\svg@box=\box177
+\c@svg@param@lastpage=\count404
+\c@svg@param@currpage=\count405
+) (/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+)
+runsystem(which pygmentize && touch spectroscopyWithVotcaAndLAMMPS.aex)...executed.
+
+runsystem(rm spectroscopyWithVotcaAndLAMMPS.aex)...executed.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.aux)
+\openout1 = `spectroscopyWithVotcaAndLAMMPS.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Trying to load font information for T1+NotoSans-TLF on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/noto/T1NotoSans-TLF.fd
+File: T1NotoSans-TLF.fd 2019/12/09 (autoinst) Font definitions for T1/NotoSans-TLF.
+)
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 37.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(24.185pt, 406.87408pt, 24.185pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=406.87408pt
+* \textheight=227.62207pt
+* \oddsidemargin=-48.08499pt
+* \evensidemargin=-48.08499pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=9.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count406
+\scratchdimen=\dimen348
+\scratchbox=\box178
+\nofMPsegments=\count407
+\nofMParguments=\count408
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count409
+\MPscratchDim=\dimen349
+\MPnumerator=\count410
+\makeMPintoPDFobject=\count411
+\everyMPtoPDFconversion=\toks58
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box179
+Package hyperref Info: Link coloring ON on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count412
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.out) (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.out)
+\@outlinefile=\write9
+\openout9 = `spectroscopyWithVotcaAndLAMMPS.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 37.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 37.
+\symnumbers=\mathgroup11
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 37.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 37.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> T1/NotoSans-TLF/m/it on input line 37.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 37.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/NotoSans-TLF/m/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/NotoSerif-TLF/m/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/NotoSans-TLF/m/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/NotoSans-TLF/m/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/NotoSans-TLF/m/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/NotoSans-TLF/m/it on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/NotoSansMono-TLF/m/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/NotoSansMono-TLF/m/n on input line 37.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  T1/NotoSans-TLF/m/n --> T1/NotoSans-TLF/b/n on input line 37.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  T1/NotoSans-TLF/m/it --> T1/NotoSans-TLF/b/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/b/n --> T1/NotoSerif-TLF/b/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/NotoSans-TLF/b/n --> T1/NotoSans-TLF/b/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  T1/NotoSans-TLF/m/n --> T1/NotoSans-TLF/b/n on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/NotoSans-TLF/m/it --> T1/NotoSans-TLF/b/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/NotoSansMono-TLF/m/n --> T1/NotoSansMono-TLF/b/n on input line 37.
+LaTeX Font Info:    Redeclaring symbol font `boldpureletters' on input line 37.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `boldpureletters' in the math version `normal' on input line 37.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/NotoSans-TLF/bx/it on input line 37.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `boldpureletters' in the math version `bold' on input line 37.
+LaTeX Font Info:    Overwriting symbol font `boldpureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> T1/NotoSans-TLF/bx/it on input line 37.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@mv@tabular=\count413
+\c@mv@boldtabular=\count414
+\c@lstlisting=\count415
+ (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks59
+\inpenc@posthook=\toks60
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.nav)
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 37.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 5.0pt on input line 37.
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb)
+<background.png, id=49, 2388.925pt x 1344.02126pt>
+File: background.png Graphic file (type png)
+<use background.png>
+Package pdftex.def Info: background.png  used on input line 40.
+(pdftex.def)             Requested size: 455.24408pt x 256.10498pt.
+<logoWebsite.png, id=51, 311.1625pt x 73.27374pt>
+File: logoWebsite.png Graphic file (type png)
+<use logoWebsite.png>
+Package pdftex.def Info: logoWebsite.png  used on input line 40.
+(pdftex.def)             Requested size: 94.24208pt x 22.1931pt.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 14.4pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 8.5pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 8.5pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 10.95pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 7.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 7.0pt on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' aliased to
+(Font)              `T1/NotoSans-TLF/regular/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' aliased to
+(Font)              `T1/NotoSans-TLF/regular/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' aliased to
+(Font)              `T1/NotoSans-TLF/regular/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/it' will be
+(Font)              scaled to size 5.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bx/it' in size <8> not available
+(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
+(Font)              scaled to size 8.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bx/it' in size <6> not available
+(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
+(Font)              scaled to size 6.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bx/it' in size <5> not available
+(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
+(Font)              scaled to size 5.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 40.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 4.0pt on input line 40.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./background.png> <./logoWebsite.png>]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 3.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+NotoSans-TLF on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/noto/TS1NotoSans-TLF.fd
+File: TS1NotoSans-TLF.fd 2019/12/09 (autoinst) Font definitions for TS1/NotoSans-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/NotoSans-TLF/m/n' aliased to
+(Font)              `TS1/NotoSans-TLF/regular/n' on input line 3.
+LaTeX Font Info:    Font shape `TS1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 3.
+)
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 49.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 49.
+<brgLogo.png, id=62, 82.3075pt x 73.27374pt>
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 49.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 49.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 49.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 49.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 49.
+ [2
+
+ <./brgLogo.png>]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/default-pyg-prefix.pygstyle) (./build/_minted-spectroscopyWithVotcaAndLAMMPS/default.pygstyle) (./build/_minted-spectroscopyWithVotcaAndLAMMPS/89043772E0B9F89FCD4DA8A54133D7A809CD8D579F30253D13B87EE2232E4473.pygtex
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 1.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+))
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 5.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 7.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/BAEB3ADB33CA6681ED6A3E7BAC367E8809CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 9.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 11.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/649A42D061F014CA749679B9B13463BF09CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 14.
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/0C22F99BD4736D8EBBB0ECDA75E7B25409CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 16.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/867FF74579CE44ED1AF3083700BFEA8B09CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 18.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 77.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [3
+
+]
+Package epstopdf Info: Source file: <images/siteenergies.eps>
+(epstopdf)                    date: 2021-07-16 10:55:23
+(epstopdf)                    size: 2894702 bytes
+(epstopdf)             Output file: <images/siteenergies-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-07-16 10:56:07
+(epstopdf)                    size: 1174334 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/siteenergies-eps-converted-to.pdf images/siteenergies.eps>
+(epstopdf)             \includegraphics on input line 87.
+Package epstopdf Info: Output file is already uptodate.
+<images/siteenergies-eps-converted-to.pdf, id=76, 743.77875pt x 313.17pt>
+File: images/siteenergies-eps-converted-to.pdf Graphic file (type pdf)
+<use images/siteenergies-eps-converted-to.pdf>
+Package pdftex.def Info: images/siteenergies-eps-converted-to.pdf  used on input line 87.
+(pdftex.def)             Requested size: 371.58203pt x 156.44954pt.
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 87.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [4
+
+ <./images/siteenergies-eps-converted-to.pdf>]
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' aliased to
+(Font)              `T1/NotoSans-TLF/regular/it' on input line 127.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/it' will be
+(Font)              scaled to size 7.0pt on input line 127.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bx/it' in size <7> not available
+(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 127.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 127.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
+(Font)              scaled to size 7.0pt on input line 127.
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 127.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [5
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 141.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [6
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 4.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 8.0pt on input line 4.
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/6C3807EEA82650FDEDECD5095171E44A09CD8D579F30253D13B87EE2232E4473.pygtex)
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/C69B1EC1CA2514562E73FE37F1317AEB09CD8D579F30253D13B87EE2232E4473.pygtex)
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/F23D32AD7E8F493B1704C3124F1B5FBD09CD8D579F30253D13B87EE2232E4473.pygtex)
+<system.png, id=118, 881.2925pt x 1027.84pt>
+File: system.png Graphic file (type png)
+<use system.png>
+Package pdftex.def Info: system.png  used on input line 14.
+(pdftex.def)             Requested size: 154.60928pt x 180.31383pt.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 160.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [7
+
+ <./system.png>]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/FAB061E0FDF3B646F25295E401CCBFE709CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 5.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 7.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/4A4555C789EAB4EA4774C6C637C56B3809CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 9.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 11.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/DEF8D8282E2465AA609CB2A775C8E838A78420FA975E34DCEF5682B354089E74.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 19.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 182.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [8
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/564F3658D630D4107C5C1B8F06690BD009CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 4.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/C49002372479041ABEE6D3C49B97D83209CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 6.
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/9AC1224554A05EE3AACA31A413657AC409CD8D579F30253D13B87EE2232E4473.pygtex)
+\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/D6C0D659999F63DB7AF7C5B7620388FA09CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 8.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/0AE285A7BE320779FD35D5C8E37D6F7409CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 10.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 196.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [9
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/488A0E7F73ED0734136813E59F316D331593ADD51C74D6B59187F565A95109AC.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 16.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 217.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 217.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
+(Font)              scaled to size 12.0pt on input line 217.
+ [10
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 6.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/F0181BF33B235A5B2D9CDE33637EEA6709CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 8.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/1F73AE9180252C508A8B1CE7400395E9A78420FA975E34DCEF5682B354089E74.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 20.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 241.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [11
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/86CE86969BD079AB3C136FB4ACCD7D0909CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 6.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 251.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [12
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 3.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/2D7B37BF8CC36DAB2DE513D3725206A5A78420FA975E34DCEF5682B354089E74.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 8.
+<images/mdAndqm/mapping.png, id=153, 2955.04pt x 872.25874pt>
+File: images/mdAndqm/mapping.png Graphic file (type png)
+<use images/mdAndqm/mapping.png>
+Package pdftex.def Info: images/mdAndqm/mapping.png  used on input line 12.
+(pdftex.def)             Requested size: 325.5005pt x 96.06854pt.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 277.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [13
+
+ <./images/mdAndqm/mapping.png>]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 4.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/7B50F9B56254E6A7B5E3CA6A666F548FA78420FA975E34DCEF5682B354089E74.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 28.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 308.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [14
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 5.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/45142F03EBD24BDCC1C12BA5816F9E6E09CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 7.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 10.
+\openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
+
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/CACC293778C5DC2E3BD07B76FBE04BAF09CD8D579F30253D13B87EE2232E4473.pygtex)
+Package mdframed Info: mdframed inside a box 
+ mdframed uses option nobreak mdframed on input line 12.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 324.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [15
+
+]
+\openout4 = `spectroscopyWithVotcaAndLAMMPS.vrb'.
+
+ (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/n' aliased to
+(Font)              `T1/NotoSans-TLF/regular/n' on input line 4.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/n' will be
+(Font)              scaled to size 60.0pt on input line 4.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/n' aliased to
+(Font)              `T1/NotoSans-TLF/bold/n' on input line 4.
+LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
+(Font)              scaled to size 60.0pt on input line 4.
+)
+File: brgLogo.png Graphic file (type png)
+<use brgLogo.png>
+Package pdftex.def Info: brgLogo.png  used on input line 336.
+(pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
+ [16
+
+]
+\tf@nav=\write10
+\openout10 = `spectroscopyWithVotcaAndLAMMPS.nav'.
+
+\tf@toc=\write11
+\openout11 = `spectroscopyWithVotcaAndLAMMPS.toc'.
+
+\tf@snm=\write12
+\openout12 = `spectroscopyWithVotcaAndLAMMPS.snm'.
+
+
+
+Package caption Warning: Unused \captionsetup[sub] on input line 28.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
+(/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 339.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
+Package rerunfilecheck Info: File `spectroscopyWithVotcaAndLAMMPS.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+runsystem(rm build//spectroscopyWithVotcaAndLAMMPS.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 39321 strings out of 481239
+ 858100 string characters out of 5920376
+ 1225181 words of memory out of 5000000
+ 53545 multiletter control sequences out of 15000+600000
+ 644126 words of font info for 105 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 76i,14n,117p,864b,1314s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_prsxmw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_uwtd6c.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_cwvxtj.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on /home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.pdf (16 pages, 2000254 bytes).
+PDF statistics:
+ 219 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+
