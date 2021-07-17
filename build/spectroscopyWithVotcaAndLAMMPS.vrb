@@ -1,6 +1,6 @@
-\color{chapterslidefgcolor}\frametitle {Results}
-  \vspace{0.5cm}
-  \begin{center}
-    {\fontsize{60}{64} \selectfont \bfseries{?}}
-  \end{center}
+\color{chapterslidefgcolor}\frametitle { ~}
+	\vspace{1.5cm}
+	\begin{center}
+		{\fontsize{28}{48} \selectfont \bfseries{The End}}
+	\end{center}
 \beamerclosesubstitutedenvironement {chapterframe}
