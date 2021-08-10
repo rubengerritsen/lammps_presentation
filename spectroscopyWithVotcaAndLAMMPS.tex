@@ -61,16 +61,17 @@ sudo apt install docker.io
   \end{minted}
   and pull the votca image.
   \begin{minted}{bash}
-sudo docker pull votca/votca
+docker pull votca/votca
   \end{minted}
   Next we start docker and load the environment variables of VOTCA
   \begin{minted}{bash}
-sudo docker run -it votca/votca /bin/bash
+docker run -it votca/votca /bin/bash
 source VOTCARC.bash
   \end{minted}
-  To find all the necessary input files \mintinline{bash}{cd} to
+  To find all the necessary input files
   \begin{minted}{bash}
-cd xtp-tutorials/LAMMPS_workshop
+git clone https://github.com/rubengerritsen/lammps
+cd lammps
 \end{minted}
   Now you are all set to follow along.
 
@@ -313,12 +314,12 @@ xtp_tools -e molpol -o OPTIONS/molpol_acetone.xml
   Once the mapping file is setup, performing the mapping is easy.
 
   \begin{minted}{bash}
-xtp_map -t system.data -c traj1.dump -s mapping.xml -f state.hdf5
+xtp_map -t LAMMPS/system.data -c LAMMPS/traj1.dump -s OPTIONS/mapping.xml -f state.hdf5
   \end{minted}
 
   To check what the mapping did we can print pdb files with the original coordinates and the multipole or qm coordinates to visually check (e.g. in VMD) if the mapping procedure was successful. To run the map checker
   \begin{minted}{bash}
-xtp_run -e mapchecker -o mapchecker.xml -f state.hdf5
+xtp_run -e mapchecker -o OPTIONS/mapchecker.xml -f state.hdf5
   \end{minted}
   In the option file you can specify exactly which states and configurations you would like to check.
 \end{frame}
@@ -344,7 +345,7 @@ xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "write"
   \end{minted}
   Running is easy
   \begin{minted}{bash}
-xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "run"
+xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "run" -x 6
   \end{minted}
   Read the results from the output file and store them in \mintinline{bash}{state.hdf5}.
   \begin{minted}{bash}
