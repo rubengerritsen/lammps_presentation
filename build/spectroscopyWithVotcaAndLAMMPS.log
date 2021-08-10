@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.24)  17 JUL 2021 13:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.24)  10 AUG 2021 09:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1509,7 +1509,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 7.
 \openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
 
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/BAEB3ADB33CA6681ED6A3E7BAC367E8809CD8D579F30253D13B87EE2232E4473.pygtex)
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/E3EFE6597E9722F987A6E2039F015DD609CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 9.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1517,24 +1517,21 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 11.
 \openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
 
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/649A42D061F014CA749679B9B13463BF09CD8D579F30253D13B87EE2232E4473.pygtex)
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/B6018010D6F9EAE0FF49DA56417A06FC09CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 14.
-\openout6 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
-
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/0C22F99BD4736D8EBBB0ECDA75E7B25409CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 16.
 \openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
 
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/867FF74579CE44ED1AF3083700BFEA8B09CD8D579F30253D13B87EE2232E4473.pygtex)
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/DFC48375931C9B6D27EAB78E4E8DAFE709CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 18.
+ mdframed uses option nobreak mdframed on input line 19.
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 77.
+Package pdftex.def Info: brgLogo.png  used on input line 78.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [3
 
@@ -1546,33 +1543,33 @@ Package epstopdf Info: Source file: <images/siteenergies.eps>
 (epstopdf)                    date: 2021-07-16 10:56:07
 (epstopdf)                    size: 1174334 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/siteenergies-eps-converted-to.pdf images/siteenergies.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 <images/siteenergies-eps-converted-to.pdf, id=76, 743.77875pt x 313.17pt>
 File: images/siteenergies-eps-converted-to.pdf Graphic file (type pdf)
 <use images/siteenergies-eps-converted-to.pdf>
-Package pdftex.def Info: images/siteenergies-eps-converted-to.pdf  used on input line 87.
+Package pdftex.def Info: images/siteenergies-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 371.58203pt x 156.44954pt.
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 87.
+Package pdftex.def Info: brgLogo.png  used on input line 88.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [4
 
  <./images/siteenergies-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/m/it' aliased to
-(Font)              `T1/NotoSans-TLF/regular/it' on input line 127.
+(Font)              `T1/NotoSans-TLF/regular/it' on input line 128.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 127.
+(Font)              scaled to size 7.0pt on input line 128.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bx/it' in size <7> not available
-(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 127.
+(Font)              Font shape `T1/NotoSans-TLF/b/it' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
-(Font)              `T1/NotoSans-TLF/bold/it' on input line 127.
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 128.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
-(Font)              scaled to size 7.0pt on input line 127.
+(Font)              scaled to size 7.0pt on input line 128.
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 127.
+Package pdftex.def Info: brgLogo.png  used on input line 128.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [5
 
@@ -1582,7 +1579,7 @@ Package pdftex.def Info: brgLogo.png  used on input line 127.
  (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.vrb)
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 141.
+Package pdftex.def Info: brgLogo.png  used on input line 142.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [6
 
@@ -1611,7 +1608,7 @@ Package pdftex.def Info: system.png  used on input line 14.
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 160.
+Package pdftex.def Info: brgLogo.png  used on input line 161.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [7
 
@@ -1646,7 +1643,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 182.
+Package pdftex.def Info: brgLogo.png  used on input line 183.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [8
 
@@ -1682,7 +1679,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 196.
+Package pdftex.def Info: brgLogo.png  used on input line 197.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [9
 
@@ -1701,12 +1698,12 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 217.
+Package pdftex.def Info: brgLogo.png  used on input line 218.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/b/it' aliased to
-(Font)              `T1/NotoSans-TLF/bold/it' on input line 217.
+(Font)              `T1/NotoSans-TLF/bold/it' on input line 218.
 LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/it' will be
-(Font)              scaled to size 12.0pt on input line 217.
+(Font)              scaled to size 12.0pt on input line 218.
  [10
 
 ]
@@ -1732,7 +1729,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 241.
+Package pdftex.def Info: brgLogo.png  used on input line 242.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [11
 
@@ -1751,7 +1748,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 251.
+Package pdftex.def Info: brgLogo.png  used on input line 252.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [12
 
@@ -1775,7 +1772,7 @@ Package pdftex.def Info: images/mdAndqm/mapping.png  used on input line 12.
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 277.
+Package pdftex.def Info: brgLogo.png  used on input line 278.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [13
 
@@ -1794,7 +1791,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 308.
+Package pdftex.def Info: brgLogo.png  used on input line 309.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [14
 
@@ -1807,7 +1804,7 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 5.
 \openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
 
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/45142F03EBD24BDCC1C12BA5816F9E6E09CD8D579F30253D13B87EE2232E4473.pygtex)
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/FE2AE67083C5B296A4A60E37B6BC796A09CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 7.
 Package mdframed Info: mdframed detected package amsthm 
@@ -1815,13 +1812,13 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 10.
 \openout5 = `spectroscopyWithVotcaAndLAMMPS.pyg'.
 
- (./build/_minted-spectroscopyWithVotcaAndLAMMPS/CACC293778C5DC2E3BD07B76FBE04BAF09CD8D579F30253D13B87EE2232E4473.pygtex)
+ (./build/_minted-spectroscopyWithVotcaAndLAMMPS/2B91BFA600828CC54138F4AF732CDAFC09CD8D579F30253D13B87EE2232E4473.pygtex)
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 12.
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 324.
+Package pdftex.def Info: brgLogo.png  used on input line 325.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [15
 
@@ -1867,7 +1864,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 354.
+Package pdftex.def Info: brgLogo.png  used on input line 355.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [16
 
@@ -1892,7 +1889,7 @@ Package mdframed Info: mdframed inside a box
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 385.
+Package pdftex.def Info: brgLogo.png  used on input line 386.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [17
 
@@ -1908,7 +1905,7 @@ Package pdftex.def Info: images/dos/DOS_shifted.pdf  used on input line 10.
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 401.
+Package pdftex.def Info: brgLogo.png  used on input line 402.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [18
 
@@ -1927,7 +1924,7 @@ LaTeX Font Info:    Font shape `T1/NotoSans-TLF/bold/n' will be
 )
 File: brgLogo.png Graphic file (type png)
 <use brgLogo.png>
-Package pdftex.def Info: brgLogo.png  used on input line 410.
+Package pdftex.def Info: brgLogo.png  used on input line 411.
 (pdftex.def)             Requested size: 23.49052pt x 20.91272pt.
  [19
 
@@ -1946,26 +1943,26 @@ Package pdftex.def Info: brgLogo.png  used on input line 410.
 Package caption Warning: Unused \captionsetup[sub] on input line 28.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 414.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 414.
 (/home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 414.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 414.
 Package rerunfilecheck Info: File `spectroscopyWithVotcaAndLAMMPS.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 runsystem(rm build//spectroscopyWithVotcaAndLAMMPS.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 39412 strings out of 481239
- 864970 string characters out of 5920376
- 1228765 words of memory out of 5000000
- 53596 multiletter control sequences out of 15000+600000
+ 39404 strings out of 481239
+ 864222 string characters out of 5920376
+ 1228692 words of memory out of 5000000
+ 53591 multiletter control sequences out of 15000+600000
  645018 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 76i,14n,117p,864b,1314s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,14n,117p,864b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_prsxmw.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_uwtd6c.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/noto/nto_cwvxtj.enc}</usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-BoldItalic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/google/noto/NotoSans-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on /home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.pdf (19 pages, 2042852 bytes).
+Output written on /home/ruben/Presentations/20210813_lammps_workshop/build/spectroscopyWithVotcaAndLAMMPS.pdf (19 pages, 2042561 bytes).
 PDF statistics:
  294 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams
