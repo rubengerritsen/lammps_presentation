@@ -327,17 +327,41 @@ xtp_run -e mapchecker -o OPTIONS/mapchecker.xml -f state.hdf5
 % Setup of Job File
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}[fragile]
-  \frametitle{Setup the QM/MM jobfile and run the calculation}
+  \frametitle{Setup the QM/MM calculation}
   \setsize{footnotesize}
-  To perform the QM/MM calculation we need a jobfile that describes for which molecule(s) and which state(s) the calculation is performed. 
-\setsize{footnotesize}
+  We need to specify for which segments to perform the QM/MM calculations and what the QM and MM regions are.
+  \setsize{scriptsize}
   \begin{minted}{xml}
-<io_jobfile>
-  <states>n s1</states>
-  <segments>0 1</segments>
-  <use_gs_for_ex>true</use_gs_for_ex>
-</io_jobfile>
+<qmmm>
+  <io_jobfile help="options to write a jobfile">
+    <states>n</states>
+    <segments>0</segments>
+    <use_gs_for_ex>true</use_gs_for_ex>
+  </io_jobfile>
+  <regions>
+    <qmregion>
+      <id>0</id>
+      <state>jobfile</state>
+      <segments>0:n</segments>
+      .
+      .
+    </qmregion>
+    <polarregion>
+      <id>1</id>
+      <cutoff>
+        <geometry>n</geometry>
+        <radius>0.9</radius>
+      </cutoff>
+    </polarregion>
+  </regions>
+</qmmm>
   \end{minted}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Run the calculation}
+  \setsize{footnotesize}  
   To create the jobfile
   \begin{minted}{bash}
 xtp_parallel -e qmmm -o OPTIONS/qmmm.xml -f state.hdf5 -j "write"
